@@ -1,0 +1,2 @@
+foo:function integer() inherit goo {}
+        main: function void() {}

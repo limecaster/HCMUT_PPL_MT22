@@ -1,0 +1,8 @@
+
+        foo: function auto(x:integer){
+            return x;
+        }
+        main: function void () {
+            a:string = foo(1);
+        }
+        

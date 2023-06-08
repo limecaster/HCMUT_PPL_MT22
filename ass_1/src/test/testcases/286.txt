@@ -1,0 +1,6 @@
+main: function void(){
+            arr: array[10] of bool;
+            a[0] = true;
+            a[1] = false;
+            a[2] = a[0] + a[1];
+        }

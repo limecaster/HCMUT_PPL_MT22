@@ -1,0 +1,8 @@
+
+        a, b: integer = 4, 5;
+        c : float = 6.0;
+        main: function void () {
+            sum : float;
+            sum = a + b + c;
+        }
+        

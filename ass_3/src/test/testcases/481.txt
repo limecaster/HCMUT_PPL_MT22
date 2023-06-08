@@ -1,0 +1,11 @@
+
+        plus: function integer(a: integer, b:integer) {return a+b;}
+        fplus: function float(a: float, b:float) {return a+b;}
+        splus: function string(a: string, b:string) {return a::b;}
+        main: function void() {
+            printInteger(plus(1,1));
+            printFloat(fplus(1,1+1));
+            printString(splus("hello", "world"));
+            
+        }
+        

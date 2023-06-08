@@ -1,0 +1,9 @@
+
+        factorial: function integer (a:integer) {
+            if ((a == 1) || (a == 0)) return 1;
+            else return a * factorial(a-1);
+        }
+        main: function void() {
+            printInteger(factorial(10));
+        }
+        

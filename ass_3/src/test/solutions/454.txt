@@ -1,0 +1,1 @@
+Type mismatch in Variable Declaration: VarDecl(c, ArrayType([4], IntegerType), BinExpr(+, Id(a), Id(b)))

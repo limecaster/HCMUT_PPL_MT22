@@ -1,0 +1,6 @@
+
+        main:function void() {
+            arr:array[1,1,1,1,1] of integer = {{{{{40}}}}};
+            
+            printInteger(arr[0,0,0,0,0]);
+        }

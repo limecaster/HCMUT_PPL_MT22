@@ -1,0 +1,9 @@
+
+        main: function void () {
+            a: array[3] of integer = {3, 1, 2};
+            i: integer;
+            for (i = 1, i <= 3, i + 1) {
+                a[i] = a;
+            }
+        }
+        

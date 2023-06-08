@@ -1,0 +1,15 @@
+struct point{
+            int x, y;
+
+            point(int x = 0, int y = 0){
+                this->x = x;
+                this->y = y;
+            }
+
+            double dist(point o){
+                int xch = abs(o.x - x);
+                int ych = abs(o.y - y);
+
+                return sqrt(xch*xch + ych*ych);
+            }
+        };

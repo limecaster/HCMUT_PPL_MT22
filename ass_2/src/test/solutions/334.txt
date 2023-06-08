@@ -1,0 +1,4 @@
+Program([
+	VarDecl(month, IntegerType, FuncCall(readInteger, []))
+	FuncDecl(DayOfWeek, StringType, [InheritParam(month, IntegerType)], None, BlockStmt([VarDecl(a, ArrayType([12], StringType), ArrayLit([StringLit(Jan), StringLit(Feb), StringLit(Mar), StringLit(Apr), StringLit(Jun), StringLit(Jul), StringLit(Aug), StringLit(Sep), StringLit(Oct), StringLit(Nov), StringLit(Dec)])), ReturnStmt(ArrayCell(a, [Id(month)]))]))
+])

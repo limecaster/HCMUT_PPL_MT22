@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ass_2",
+    "\\ass_2\\src",
+    "\\ass_2\\src\\main",
+    "\\ass_2\\src\\main\\mt22",
+    "\\ass_2\\src\\main\\mt22\\astgen",
+    "\\ass_2\\src\\main\\mt22\\parser",
+    "\\ass_2\\src\\main\\mt22\\utils",
+    "\\ass_2\\src\\test",
+    "\\ass_2\\target"
+  ],
+  "SelectedNode": "\\ass_2\\src\\main\\mt22\\astgen\\ASTGeneration.py",
+  "PreviewInSolutionExplorer": false
+}

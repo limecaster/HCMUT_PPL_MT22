@@ -1,0 +1,5 @@
+Program([
+	FuncDecl(plus, IntegerType, [Param(a, IntegerType), Param(b, IntegerType)], None, BlockStmt([ReturnStmt(BinExpr(+, Id(a), Id(b)))]))
+	FuncDecl(fplus, FloatType, [Param(a, FloatType), Param(b, FloatType)], plus, BlockStmt([ReturnStmt(BinExpr(+, Id(a), Id(b)))]))
+	FuncDecl(splus, StringType, [Param(a, StringType), Param(b, StringType)], plus, BlockStmt([ReturnStmt(BinExpr(::, Id(a), Id(b)))]))
+])

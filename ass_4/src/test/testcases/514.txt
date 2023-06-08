@@ -1,0 +1,12 @@
+
+        x:array [4] of integer;
+        main:function void() {
+            x[0] = 10;
+            x[1] = 20;
+            x[2] = 30;
+            x[3] = 40;
+            i: integer;
+            for (i = 0, i < 4, 1) {
+                printFloat(x[i]);
+            }
+        }

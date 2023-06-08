@@ -1,0 +1,9 @@
+
+        main:function void() {
+            x:integer = 1;
+            while (true) {
+                x = x + 1;
+                if (x == 10) break;
+            }
+            printInteger(x);
+        }

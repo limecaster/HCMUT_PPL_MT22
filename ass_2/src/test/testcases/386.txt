@@ -1,0 +1,6 @@
+
+month: integer = readInteger();
+DayOfWeek: function string(inherit month:integer) {
+    a: array[12] of string = {"Jan", "Feb", "Mar", "Apr", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+    return a[month];
+}

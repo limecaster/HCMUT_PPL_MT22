@@ -1,0 +1,5 @@
+
+x: boolean = true;
+main: function integer(inherit x:integer) {}
+y,z: string = true, 1;
+foo: function float(inherit y: string) inherit main {}

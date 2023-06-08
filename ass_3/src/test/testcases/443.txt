@@ -1,0 +1,9 @@
+
+        lmao : function string (){
+            haha: string = "hi hi";
+            return haha;
+        }
+        main: function void () {
+            lmao();
+        }
+        

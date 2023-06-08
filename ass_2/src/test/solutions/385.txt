@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(str, StringType, [Param(a, StringType)], None, BlockStmt([AssignStmt(Id(a), StringLit(Hello world \n))]))
+])

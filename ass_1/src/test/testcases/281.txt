@@ -1,0 +1,4 @@
+main: function void(){
+            arr: array[10] of string;
+            a[9][5];
+        }

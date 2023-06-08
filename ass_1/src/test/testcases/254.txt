@@ -1,0 +1,4 @@
+ModifyEXP:function void (EXP:integer){
+            if (EXP < 0) EXP = 0;
+            if (EXP > 900) EXP = 900;
+        }

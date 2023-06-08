@@ -1,0 +1,7 @@
+x: auto;
+        main: function void() {
+        x = "lemon";
+        x = x + 1;
+        x = 1;
+        x = 1.1;}
+        

@@ -1,0 +1,5 @@
+
+x: boolean = true;
+main: function void() {
+    if (x) if (x) if (x) if (x) if (x) if (x) if (x) break;
+}     

@@ -1,0 +1,16 @@
+
+        a: function auto () {
+            a:integer;
+            if (a == 1) {
+                if (a + 1 == 2) {
+                    a = 2;
+                    return a;
+                }
+                else {
+                    return 2.0;
+                }
+            }
+            return 1;
+        }
+        main: function void() {}
+        

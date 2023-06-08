@@ -1,0 +1,3 @@
+x: boolean = true;
+        main: function void() {do {x= x+1<2<3;}
+        while (x);}

@@ -1,0 +1,1 @@
+func,:,integer,[,100,],of,array,function,void,(,int,),<EOF>

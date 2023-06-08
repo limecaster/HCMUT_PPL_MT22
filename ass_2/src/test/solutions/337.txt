@@ -1,0 +1,4 @@
+Program([
+	VarDecl(x, BooleanType, BooleanLit(True))
+	FuncDecl(main, IntegerType, [InheritParam(x, IntegerType)], None, BlockStmt([WhileStmt(BooleanLit(True), BreakStmt())]))
+])

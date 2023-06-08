@@ -1,0 +1,4 @@
+Program([
+	VarDecl(key, IntegerType, IntegerLit(129))
+	FuncDecl(hash, IntegerType, [InheritOutParam(a, IntegerType)], None, BlockStmt([ReturnStmt(BinExpr(%, Id(key), Id(a)))]))
+])

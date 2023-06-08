@@ -1,0 +1,4 @@
+Program([
+	VarDecl(year, IntegerType, FuncCall(readInteger, []))
+	FuncDecl(isLeapYear, BooleanType, [InheritParam(year, IntegerType)], None, BlockStmt([ReturnStmt(BinExpr(&&, BinExpr(==, BinExpr(%, Id(year), IntegerLit(4)), IntegerLit(0)), BinExpr(||, BinExpr(!=, BinExpr(%, Id(year), IntegerLit(100)), IntegerLit(0)), BinExpr(==, BinExpr(%, Id(year), IntegerLit(400)), IntegerLit(0)))))]))
+])

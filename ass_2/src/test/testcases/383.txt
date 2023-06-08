@@ -1,0 +1,5 @@
+
+key: integer = 129;
+hash: function integer(inherit key: integer) {
+    return key || key;
+}

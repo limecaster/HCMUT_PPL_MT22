@@ -1,0 +1,7 @@
+
+        x: function void(inherit a:integer, inherit b:float, inherit c:string) {}
+        main: function void() inherit x {
+            super(1,1.0,"aha"); 
+            c:string;
+        }
+        

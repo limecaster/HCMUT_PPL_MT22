@@ -1,0 +1,7 @@
+
+        main: function void () {
+            a: array[3] of integer = {3, 1, 2};
+            b: array[1] of string = {" "};
+            c: array[4] of integer = a + b;
+        }
+        

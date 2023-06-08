@@ -1,0 +1,4 @@
+
+str:function string(a: string) {
+    a = "Hello world \n";
+}

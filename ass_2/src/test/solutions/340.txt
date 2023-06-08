@@ -1,0 +1,7 @@
+Program([
+	VarDecl(x, BooleanType, BooleanLit(True))
+	FuncDecl(main, IntegerType, [InheritParam(x, IntegerType)], None, BlockStmt([]))
+	VarDecl(y, StringType, BooleanLit(True))
+	VarDecl(z, StringType, IntegerLit(1))
+	FuncDecl(foo, FloatType, [InheritParam(y, StringType)], main, BlockStmt([]))
+])

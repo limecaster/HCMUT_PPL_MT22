@@ -1,0 +1,4 @@
+ phase1 : string = "Osmanthus wine ";
+        phase2 : string ="tastes \n the \n same \n as \n I \n remember. \n ";
+        main: function void() {printString(phase1::phase2);}
+        

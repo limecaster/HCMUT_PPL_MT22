@@ -1,0 +1,4 @@
+Program([
+	VarDecl(x, BooleanType, BooleanLit(True))
+	FuncDecl(main, IntegerType, [InheritParam(x, IntegerType)], None, BlockStmt([AssignStmt(Id(a), BinExpr(-, Id(b), Id(a))), AssignStmt(Id(b), BinExpr(-, Id(a), Id(b))), AssignStmt(Id(lst), BinExpr(+, Id(a), Id(b))), ReturnStmt(BinExpr(/, Id(lst), Id(x)))]))
+])

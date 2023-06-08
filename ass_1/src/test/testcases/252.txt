@@ -1,0 +1,9 @@
+func: function array[10007] of float(a: integer){
+            arr: array[10007] of float;
+            arr[0] = a;
+            return arr;
+        }
+        main: function void(){
+            func(10);
+        }
+        

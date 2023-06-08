@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(haha, StringType, [], None, BlockStmt([ReturnStmt(StringLit(haha))]))
+])

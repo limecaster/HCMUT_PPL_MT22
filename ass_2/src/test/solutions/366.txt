@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(n, IntegerType, FuncCall(readInteger, [])), VarDecl(str, StringType, BinExpr(::, BinExpr(::, BinExpr(::, StringLit(a), StringLit(b)), StringLit(c)), StringLit(d))), CallStmt(bubbleSort, Id(a), Id(n))]))
+])

@@ -1,0 +1,2 @@
+foo:function array[1] of integer (out a: integer) inherit goo {}
+goo:function integer(a:integer, b:float){}

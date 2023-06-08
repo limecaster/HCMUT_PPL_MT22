@@ -1,0 +1,2 @@
+ILLEGAL_ESCAPE: '"' (ESC_SEQUENCE | ~[
+\"])*? ('\' ~[btfr"'\])  {raise IllegalEscape(self.text[1:])};

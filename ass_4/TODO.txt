@@ -1,0 +1,4 @@
+0/ Giai quyet inherit param
+1/ Suy dien kieu cho function AutoType, param AutoType: Done
+2/ Pass by value-result
+3/ Check lai cac loop: Done

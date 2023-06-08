@@ -1,0 +1,5 @@
+
+        foo: function void(inherit a:integer){}
+        goo: function void(a:integer) inherit foo{}
+        main: function void() {
+        }

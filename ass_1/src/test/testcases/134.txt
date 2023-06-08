@@ -1,0 +1,1 @@
+array : arr[123_1231__2] of azhada

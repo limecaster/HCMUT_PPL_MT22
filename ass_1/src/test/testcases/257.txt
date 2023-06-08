@@ -1,0 +1,5 @@
+int firstMeet(int& EXP1, int& EXP2, const int& E1){
+        //Complete this function to gain point on task 1
+        if (E1 > 999 || E1 < 0) {
+            return -999;
+        }

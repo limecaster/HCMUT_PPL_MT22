@@ -1,0 +1,8 @@
+func: function integer(out str: string){
+            printString(str);
+        }
+        main: function void(){
+            st: string = "asdfasdf";
+            func(1);
+        }
+        

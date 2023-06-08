@@ -1,0 +1,11 @@
+
+        foo: function void (inherit a:integer) {}
+        goo: function void (b:integer) inherit foo {
+            preventDefault();
+            if (b == 1){
+                a:integer = 1;
+            }
+            a:integer;
+        }
+        main: function void () {}
+        

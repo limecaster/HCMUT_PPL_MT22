@@ -1,0 +1,5 @@
+main:function void() {if (case1) {
+            if (E1 >= 0 && E1 <= 49) {
+                EXP2 += EXP2_case1_1;
+            }}
+            

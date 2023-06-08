@@ -1,0 +1,13 @@
+
+    foo:function integer(a:auto) {
+        return a + 1;
+    }        
+    
+    main:function void () {
+        x:string;
+        y: integer;
+        
+        foo(x);
+        foo(y);
+    }
+        

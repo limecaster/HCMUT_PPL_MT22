@@ -1,0 +1,5 @@
+int main(){
+            gen(1);
+            cout << res;
+            return 0;
+        }

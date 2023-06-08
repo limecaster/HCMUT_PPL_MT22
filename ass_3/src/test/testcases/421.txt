@@ -1,0 +1,7 @@
+
+        a:integer = 1;
+        b:string = "a";
+        foo:function integer(a: integer, b: boolean){}
+        main: function void() {
+            foo(a, b);
+        }

@@ -1,0 +1,4 @@
+main: function void(){
+            arr: array[10,1,1,1,1,1,1] of string;
+            arr[9,0,0,0,0,0,0,0] = 1;
+        }

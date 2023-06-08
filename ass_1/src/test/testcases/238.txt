@@ -1,0 +1,6 @@
+a, b, c: integer = 0, 3, 5;
+        main: function void() {if (a < b < c){
+            printInt(1);
+        }
+        else printInt(0);}
+        

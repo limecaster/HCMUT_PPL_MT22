@@ -1,0 +1,8 @@
+func: function integer(a: integer, b: integer){
+            str: string = "a + b";
+            return str;
+        }
+        main: function void(){
+            printInt(func(1, 2));
+        }
+        

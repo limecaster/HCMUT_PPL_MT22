@@ -1,0 +1,8 @@
+
+isLeapYear: function boolean(year:integer) {
+    return (year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0));
+}     
+main:function void() {
+    isLeapYear:integer = 2023;
+    isLeapYear(isLeapYear);
+}

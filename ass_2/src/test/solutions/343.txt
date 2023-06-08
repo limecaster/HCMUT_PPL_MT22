@@ -1,0 +1,5 @@
+Program([
+	VarDecl(pi, FloatType, FloatLit(31.415926))
+	VarDecl(abc, FloatType, BinExpr(+, Id(pi), IntegerLit(1)))
+	VarDecl(isinstance, BooleanType, BinExpr(==, FuncCall(type, [Id(a)]), FuncCall(type, [Id(b)])))
+])

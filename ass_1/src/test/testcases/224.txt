@@ -1,0 +1,5 @@
+ str: string;
+        str = "abc";
+        index: integer = 2;
+        main: function void() {printString(str[index]);}
+        

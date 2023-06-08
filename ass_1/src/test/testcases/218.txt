@@ -1,0 +1,12 @@
+main: function void() {
+        readInteger();
+        printInteger(1);
+        readFloat();
+        printFloat(1.0);
+        readBoolean();
+        printBoolean(1);
+        readString();
+        printString("Hello world");
+        super(a+1, 2+2);
+        preventDefault();
+        }

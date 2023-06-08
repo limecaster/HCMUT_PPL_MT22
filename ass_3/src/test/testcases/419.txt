@@ -1,0 +1,8 @@
+
+        a:integer = 1;
+        b:integer = 2;
+        c:integer = 3;
+        foo:function float(a: integer, b: float){}
+        main: function void() {
+            a = foo(a,b);
+        }

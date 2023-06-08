@@ -1,0 +1,8 @@
+
+isLeapYear: function boolean(year:integer) {
+    return (year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0));
+}     
+main:function void() {
+    year:integer = readInteger();
+    if (isLeapYear(year)) printString("Leap year"); else printString("Not a leap year");
+}

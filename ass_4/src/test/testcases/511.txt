@@ -1,0 +1,8 @@
+
+        main:function void() {
+            x:integer = 1;
+            do {
+                x = x + 1;
+            } while(x < 10);
+            printInteger(x);
+        }

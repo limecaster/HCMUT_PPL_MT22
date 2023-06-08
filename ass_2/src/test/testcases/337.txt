@@ -1,0 +1,5 @@
+
+x: boolean = true;
+main: function integer(inherit x:integer) {
+    while (true) break;
+}

@@ -1,0 +1,4 @@
+
+a:auto = 123;
+b:auto = a;
+main:function void() {print(b);}

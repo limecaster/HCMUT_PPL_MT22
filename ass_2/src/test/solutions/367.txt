@@ -1,0 +1,6 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([]))
+	FuncDecl(foo, ArrayType([2], StringType), [Param(a, ArrayType([1], FloatType))], None, BlockStmt([]))
+	FuncDecl(goo, AutoType, [OutParam(b, AutoType)], None, BlockStmt([]))
+	FuncDecl(coo, StringType, [OutParam(b, FloatType)], goo, BlockStmt([]))
+])

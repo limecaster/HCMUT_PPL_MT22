@@ -1,0 +1,5 @@
+
+main: function void(){}
+foo: function array[2] of string(a: array[1] of float){}
+goo: function auto(out b: auto){}
+coo: function string(out b: float) inherit goo{}

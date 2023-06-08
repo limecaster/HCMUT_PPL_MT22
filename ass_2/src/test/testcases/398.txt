@@ -1,0 +1,3 @@
+
+interface: function integer() {}
+foo:function integer(n:integer) inherit inteface {}

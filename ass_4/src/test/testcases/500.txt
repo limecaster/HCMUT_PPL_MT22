@@ -1,0 +1,3 @@
+main:function void() {
+            printString("101haha");
+        }

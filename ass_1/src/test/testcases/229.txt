@@ -1,0 +1,17 @@
+arr: array [5] of integer;
+        arr[0] = 4; arr[1] = 2; arr[2] = 3;
+        arr[3] = 10; arr[4] = -5;
+        for (i = 0, i < 5, i + 1) {
+            for (j = i + 1, j < 5, j + 1){
+                if (arr[i] < arr[j]){
+                    temp: integer = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        for (i = 0, i < 5, i + 1){
+            printInt(arr[i]);
+            printString(" ");
+        }
+        

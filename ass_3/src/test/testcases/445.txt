@@ -1,0 +1,6 @@
+
+        a : integer = 1;
+        main: function void () {
+            a : integer = 10;
+        }
+        

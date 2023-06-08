@@ -1,0 +1,5 @@
+
+main: function void(){}
+foo: function array[1,1,1] of boolean(a: array[1] of string){}
+goo: function auto(out b: auto){}
+coo: function string(out b: float) inherit goo{}

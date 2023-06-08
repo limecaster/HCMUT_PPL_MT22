@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(pascalTri, IntegerType, [Param(a, IntegerType), Param(b, IntegerType)], None, BlockStmt([IfStmt(BinExpr(==, BinExpr(==, Id(a), BinExpr(||, IntegerLit(0), Id(a))), Id(b)), ReturnStmt(IntegerLit(1))), ReturnStmt(BinExpr(+, FuncCall(pascalTri, [BinExpr(-, Id(a), IntegerLit(1)), BinExpr(-, Id(b), IntegerLit(1))]), FuncCall(pascalTri, [BinExpr(-, Id(a), IntegerLit(1)), Id(b)])))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(input1, IntegerType, IntegerLit(5)), VarDecl(input2, IntegerType, IntegerLit(3)), CallStmt(printInt, FuncCall(pascalTri, [Id(input1), Id(input2)]))]))
+])

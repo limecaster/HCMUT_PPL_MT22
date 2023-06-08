@@ -1,0 +1,4 @@
+ str : string = "123"; 
+        a: integer = 150;
+        main: function void() {printString(str + a);}
+        

@@ -1,0 +1,8 @@
+
+        //str:string = "abc" :: "123";
+        
+        main:function void() {
+            str:string;
+            str = "abc" :: "123" :: "ehe";
+            printString(str);
+        }

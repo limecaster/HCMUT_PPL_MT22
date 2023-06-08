@@ -1,0 +1,8 @@
+ add: function integer(a: integer, b: integer){
+            return a + b;
+        }
+        main: function void(){
+            a, b: integer = 3, 4;
+            printInt(a, b);
+        }
+        

@@ -1,0 +1,5 @@
+Program([
+	VarDecl(a, IntegerType, IntegerLit(129))
+	VarDecl(b, IntegerType, IntegerLit(123))
+	FuncDecl(add, IntegerType, [OutParam(b, IntegerType), OutParam(a, IntegerType)], None, BlockStmt([ReturnStmt(BinExpr(+, Id(a), Id(b)))]))
+])

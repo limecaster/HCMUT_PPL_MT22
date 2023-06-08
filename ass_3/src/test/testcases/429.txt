@@ -1,0 +1,7 @@
+
+        a, b, c: integer = 4, 5.0, 6;
+        main: function void () {
+            sum: integer;
+            sum = a + b + c;
+        }
+        

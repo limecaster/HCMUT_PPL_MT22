@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([IfStmt(BinExpr(==, Id(x), IntegerLit(1)), IfStmt(BinExpr(==, Id(x), IntegerLit(2)), BlockStmt([IfStmt(BinExpr(==, Id(x), IntegerLit(3)), ReturnStmt(IntegerLit(3)))]), ReturnStmt(Id(x))))]))
+])

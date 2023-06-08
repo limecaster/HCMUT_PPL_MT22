@@ -1,0 +1,10 @@
+
+x: boolean = true;
+main: function void() {
+    a,b:integer;
+    lst:float;
+    a = b - a;
+    b = a - b;
+    lst = a + b;
+    return lst/x;
+}        

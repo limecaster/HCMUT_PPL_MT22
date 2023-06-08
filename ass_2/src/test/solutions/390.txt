@@ -1,0 +1,4 @@
+Program([
+	VarDecl(x, BooleanType, BooleanLit(True))
+	FuncDecl(main, IntegerType, [InheritParam(x, IntegerType)], None, BlockStmt([AssignStmt(Id(a), Id(b)), AssignStmt(ArrayCell(a, [Id(i)]), ArrayCell(b, [Id(i)])), AssignStmt(ArrayCell(a, [Id(i)]), Id(b)), AssignStmt(Id(b), ArrayCell(a, [Id(i)]))]))
+])

@@ -1,0 +1,5 @@
+main: function void(){
+            a: integer = 0;
+            b: integer = 1;
+            a = a - 6 == 5 - b;
+        }

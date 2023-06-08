@@ -1,0 +1,7 @@
+
+main: function void() {}
+a: integer;
+b,c: float;
+d,e,f: string = 1,2,3;
+g: auto;
+h,i,j: array[2,2] of integer = {1,2,3,4}, a, b;

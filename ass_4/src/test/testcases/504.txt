@@ -1,0 +1,7 @@
+
+        x:integer;
+        y:string = "abc";
+        main:function void() {
+            x:integer = 10;
+            printInteger(x);
+        }

@@ -1,0 +1,1 @@
+case1:boolean = E1 >= 0 && E1 <= 399;

@@ -1,0 +1,11 @@
+
+        foo: function auto (x:auto) {
+            return x;
+        }
+        main: function void () {
+            i : auto = 1.1;
+            
+            while (foo(i) < 3.0){
+            }
+        }
+        

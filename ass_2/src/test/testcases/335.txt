@@ -1,0 +1,9 @@
+
+year: integer = readInteger();
+isLeapYear: function boolean(inherit year:integer) {
+    return (year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0));
+}
+toString: function string(flag: boolean) {
+    if (flag) printString("Is \"leap year\"");
+    else printString("Is not \"leap year\"");
+}

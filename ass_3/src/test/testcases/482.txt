@@ -1,0 +1,19 @@
+
+x: boolean = true;
+main: function void() {}
+y,z: string = "true", "1";
+foo: function float(y: string) inherit main {
+    preventDefault();
+    i:integer;
+    for (i = y, i < z, i) {
+        while (i) {
+            if (z) {
+                do {
+                    return h;
+                }
+                while (y != z);
+            }
+        }
+    }
+}
+        

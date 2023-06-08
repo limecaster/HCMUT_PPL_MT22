@@ -1,0 +1,4 @@
+
+pi: float = 3.1415926e1;
+abc: float = pi + 1;
+isinstance: boolean = type(a) == type(b);

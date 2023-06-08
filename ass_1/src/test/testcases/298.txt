@@ -1,0 +1,4 @@
+main: function void(){
+            b: string = "5 = 4" = 
+            x: boolean = true;
+        }

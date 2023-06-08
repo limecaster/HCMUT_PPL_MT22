@@ -1,0 +1,10 @@
+main: function void(out a: integer){
+            a = a + 1;
+        }
+
+        main: function void(){
+            a: integer = 0;
+            main(a);
+            printInt(a);
+        }
+        

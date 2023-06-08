@@ -1,0 +1,3 @@
+@lexer::header {
+            from lexererr import *
+        }

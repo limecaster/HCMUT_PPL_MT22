@@ -1,0 +1,1 @@
+a: array [3_2] of string = {"Kangxi", "Yongzheng", "Qianlong"};

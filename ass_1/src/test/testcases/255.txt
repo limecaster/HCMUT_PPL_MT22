@@ -1,0 +1,7 @@
+main: function void(){
+            str: string = "abc";
+            for (i = 0, i < 3, i + 4){
+                printString(str[i]);
+            }
+        }
+        

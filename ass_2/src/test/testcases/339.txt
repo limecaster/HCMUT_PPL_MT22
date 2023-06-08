@@ -1,0 +1,8 @@
+
+x: boolean = true;
+main: function integer(inherit x:integer) {
+    a = b - a;
+    b = a - b;
+    lst = a + b;
+    return lst/x;
+}

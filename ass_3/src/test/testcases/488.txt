@@ -1,0 +1,6 @@
+
+x: boolean = true;
+main: function void() {
+    i:integer;
+    for (i = 1, x, x) if (x) if (x) break;
+}     

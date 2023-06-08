@@ -1,0 +1,7 @@
+
+        foo: function void(){}
+        goo: function void (c:integer,b:float) inherit foo{
+            super(d);
+        }
+        main: function void() {
+        }

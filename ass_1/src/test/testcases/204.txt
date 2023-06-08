@@ -1,0 +1,2 @@
+x:integer = 4;
+        main: function void() {x = x + 1;}

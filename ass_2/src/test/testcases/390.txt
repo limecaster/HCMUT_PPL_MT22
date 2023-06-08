@@ -1,0 +1,8 @@
+
+x: boolean = true;
+main: function integer(inherit x:integer) {
+    a = b;
+    a[i] = b[i];
+    a[i] = b;
+    b = a[i];
+}

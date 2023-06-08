@@ -1,0 +1,4 @@
+Program([
+	VarDecl(day, IntegerType, FuncCall(readInteger, []))
+	FuncDecl(DayOfWeek, StringType, [InheritParam(day, IntegerType)], None, BlockStmt([IfStmt(BinExpr(==, Id(day), IntegerLit(0)), ReturnStmt(StringLit(Sunday))), IfStmt(BinExpr(==, Id(day), IntegerLit(1)), ReturnStmt(StringLit(Monday))), IfStmt(BinExpr(==, Id(day), IntegerLit(1)), ReturnStmt(StringLit(Tuesday))), IfStmt(BinExpr(==, Id(day), IntegerLit(1)), ReturnStmt(StringLit(Wednesday))), IfStmt(BinExpr(==, Id(day), IntegerLit(1)), ReturnStmt(StringLit(Thursday))), IfStmt(BinExpr(==, Id(day), IntegerLit(1)), ReturnStmt(StringLit(Friday))), IfStmt(BinExpr(==, Id(day), IntegerLit(1)), ReturnStmt(StringLit(Saturday)))]))
+])

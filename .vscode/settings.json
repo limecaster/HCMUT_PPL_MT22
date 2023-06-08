@@ -1,0 +1,21 @@
+{
+    "python.analysis.extraPaths": [
+        "./bkool/initial/src/test",
+        "./ass_2/target",
+        "./ass_2/src/main/mt22/utils",
+        "./ass_3/src/main/mt22/utils",
+        "./ass_3/src/main/mt22/utils",
+        "./ass_3/src/main/mt22/checker",
+        "./ass_3/src/main/mt22/astgen",
+        "./ass_3/src/main/mt22/parser"
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./bkool",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
+}

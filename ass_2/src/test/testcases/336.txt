@@ -1,0 +1,5 @@
+
+x: boolean = true;
+main: function integer(inherit x:integer) {
+    if (x) if (x) if (x) if (x) if (x) if (x) if (x) break; else break; else break; else break;
+}

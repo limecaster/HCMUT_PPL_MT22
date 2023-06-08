@@ -1,0 +1,12 @@
+func: function integer(a: integer, b: integer){
+            return a + b;
+        }
+        func: function integer(a: integer){
+            return -a;
+        }
+        main: function void(){
+            printInt(func(1,2));
+            printString(" \n ");
+            printInt(func(1));
+        }
+        

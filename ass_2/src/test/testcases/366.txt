@@ -1,0 +1,6 @@
+
+main: function void(){
+    n: integer = readInteger();
+    str: string = "a"::"b"::"c"::"d";
+    bubbleSort(a, n);
+}

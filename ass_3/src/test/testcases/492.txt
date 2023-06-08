@@ -1,0 +1,11 @@
+
+day: integer = readInteger();
+DayOfWeek: function string(inherit day:integer) {
+    if (day == 0) return "Sunday";
+    else if (day == 1) return "Monday";
+    else if (day == 1) return "Tuesday";
+    else if (day == 1) return "Wednesday";
+    else if (day == 1) return "Thursday";
+    else if (day == 1) return "Friday";
+    else if (day == 1) return "Saturday";
+}

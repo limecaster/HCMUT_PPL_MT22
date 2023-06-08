@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(interface, IntegerType, [], None, BlockStmt([]))
+	FuncDecl(foo, IntegerType, [Param(n, IntegerType)], inteface, BlockStmt([]))
+])

@@ -1,0 +1,8 @@
+
+    foo:function auto(a:integer){
+        return a;
+    }    
+    main:function void() {
+        printInteger(foo(10));
+    }
+        

@@ -1,0 +1,10 @@
+
+        foo:function integer (inherit a:integer, b :integer) {}
+        goo: function integer (b:integer) inherit foo {
+            super(1);
+            a: integer = b;
+        }
+        main: function void () {
+            x:integer = goo(1);
+        }
+        

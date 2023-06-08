@@ -1,0 +1,4 @@
+Program([
+	VarDecl(pi, FloatType, FloatLit(0.0))
+	VarDecl(abc, FloatType, BinExpr(+, Id(pi), IntegerLit(1)))
+])

@@ -1,0 +1,24 @@
+void calSum(string fileName)   {
+            // TODO
+            ifstream infile;
+            infile.open(fileName);
+            int res = 0;
+            int s = 51531;
+            while (infile >> s){
+                
+                cout << s << " ";
+                res += s;
+            }
+            cout << endl << res;
+        }
+
+        int main(){
+            string filename = "lmao.txt";
+            calSum(filename);
+
+            int a[10];
+            cout << endl << sizeof(a)/sizeof(int);
+
+
+            return 0;
+        }

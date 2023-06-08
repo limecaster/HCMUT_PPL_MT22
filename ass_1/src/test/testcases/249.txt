@@ -1,0 +1,5 @@
+a, b, c: float = 1.4, 2.6, 7;
+        for (i = a + b - c, i < a + b + c, i + 0.5){
+            printInt(i);
+        }
+        

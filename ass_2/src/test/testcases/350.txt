@@ -1,0 +1,2 @@
+
+haha:function string(){return "haha";}

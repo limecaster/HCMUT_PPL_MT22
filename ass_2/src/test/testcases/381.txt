@@ -1,0 +1,5 @@
+
+a,b: integer = 129,123;
+add: function integer(out b:integer, out a:integer) {
+    return a+b;
+}

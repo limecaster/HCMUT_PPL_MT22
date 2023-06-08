@@ -1,0 +1,13 @@
+
+a:array[100] of integer;
+min: function integer(as: array[100] of integer) {
+    min,i: integer = as[0],0;
+    
+    for (i = 0, i < 100, 1) {
+        if (as[i] < min) min = as[i];
+    }
+    return as[i];
+}
+main: function void() {
+    printInteger(min(a));
+}

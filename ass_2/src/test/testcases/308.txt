@@ -1,0 +1,4 @@
+main: function void(){
+            x, y: integer = 5, 3;
+        }
+        

@@ -1,0 +1,1 @@
+1234567,(,considered,as,1234567,by,scanner,),<EOF>

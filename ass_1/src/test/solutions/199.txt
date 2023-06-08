@@ -1,0 +1,1 @@
+int,n,,,m,,,k,;,ll,w_mn,;,vector,<,pair,<,int,,,ii,>,>,edge,;,vector,<,ii,>,mst,;,int,p,[,maxN,],;,<EOF>

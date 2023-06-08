@@ -1,0 +1,5 @@
+Program([
+	FuncDecl(swap, VoidType, [OutParam(x, IntegerType), OutParam(y, IntegerType)], None, BlockStmt([VarDecl(temp, IntegerType, Id(x)), AssignStmt(Id(x), Id(y)), AssignStmt(Id(y), Id(temp)), ReturnStmt()]))
+	FuncDecl(bubbleSort, VoidType, [OutParam(a, ArrayType([1], IntegerType)), Param(size, IntegerType)], None, BlockStmt([VarDecl(i, IntegerType), ForStmt(AssignStmt(Id(i), IntegerLit(1)), BinExpr(<, Id(i), BinExpr(-, Id(size), IntegerLit(1))), IntegerLit(1), BlockStmt([ForStmt(AssignStmt(Id(j), BinExpr(+, Id(i), IntegerLit(1))), BinExpr(<, Id(j), Id(size)), IntegerLit(1), BlockStmt([IfStmt(BinExpr(<, ArrayCell(a, [Id(i)]), ArrayCell(a, [Id(j)])), CallStmt(swap, ArrayCell(a, [Id(i)]), ArrayCell(a, [Id(j)])))]))])), ReturnStmt()]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(n, IntegerType, FuncCall(readInteger, [])), VarDecl(a, ArrayType([10], IntegerType), ArrayLit([IntegerLit(1), IntegerLit(2), IntegerLit(3), IntegerLit(4), IntegerLit(5), IntegerLit(6), IntegerLit(7), IntegerLit(8), IntegerLit(9)])), CallStmt(bubbleSort, Id(a), Id(n))]))
+])

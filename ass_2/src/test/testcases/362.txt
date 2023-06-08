@@ -1,0 +1,6 @@
+main: function void(){
+if (x == 1)
+    if (x == 2)
+        if (x == 3) return 3;
+        else return x;
+}

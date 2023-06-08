@@ -1,0 +1,7 @@
+
+        main:function void() {
+            i,j:integer;
+            x:array[2] of integer = {10,40};
+            
+            printInteger(x[1]);
+        }

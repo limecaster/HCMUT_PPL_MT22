@@ -1,0 +1,3 @@
+
+pi: float = .e3;
+abc: float = pi + 1;

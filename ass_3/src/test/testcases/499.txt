@@ -1,0 +1,9 @@
+
+pascalTri: function float(a: integer, b: integer){
+            if ((a == 0) || (a == b)) return 1;
+            return pascalTri(a - 1, b - 1) + pascalTri(a - 1, b);
+        }
+        main: function void(){
+            input1, input2: integer = 5, 3;
+            printFloat(pascalTri(input1, input2));
+        }

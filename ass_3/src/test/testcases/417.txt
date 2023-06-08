@@ -1,0 +1,7 @@
+
+        a:integer = 1;
+        b:integer = 2;
+        foo:function integer(a: integer, b: float){}
+        main: function void() {
+            foo(a);
+        }

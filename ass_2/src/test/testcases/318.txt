@@ -1,0 +1,6 @@
+
+a: array[1,2] of integer;
+b: array[2,2] of string = {"a", "b", "c", "d"};
+main:function void() {
+    a[1] = 3;
+}
